@@ -1,0 +1,22 @@
+# Ignore virtual environments
+.venv/
+env/
+
+# Ignore editor settings and environment files in the root only
+/.vscode/  # applies only to the root .vscode directory
+
+# Ignore Jupyter Notebook checkpoints in any directory
+.ipynb_checkpoints/
+
+# Ignore Python build artifacts
+__pycache__/
+*.pyc
+spiral.egg-info/
+
+# Ignore macOS-specific files
+.DS_Store
+
+# Ignore data files and outputs
+spiral/data/
+spiral/diagnostic_plots/
+

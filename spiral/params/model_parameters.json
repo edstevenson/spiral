@@ -1,0 +1,67 @@
+{
+  "input_output": {
+    "uvtable_filename": "",
+    "save_dir": "",
+    "save_solution": true,
+    "save_profile_fit": true,
+    "save_vis_fit": true,
+    "save_uvtables": true,
+    "iteration_diag": false,
+    "format": "txt"
+  },
+  "modify_data": {
+    "baseline_range": null,
+    "correct_weights": true,
+    "use_median_weight": true,
+    "norm_wle": 0.0008689636463768116
+  },
+  "geometry": {
+    "type": "known",
+    "fit_phase_offset": false,
+    "fit_inc_pa": false,
+    "initial_guess": false,
+    "inc": 0.0,
+    "pa": 0.0,
+    "dra": 0.0013,
+    "ddec": -0.0018,
+    "rescale_flux": true
+  },
+  "hyperparameters": {
+    "n": 200,
+    "rout": 1.2,
+    "alpha": 1.05,
+    "p0": 1e-15,
+    "wsmooth": 0.1,
+    "iter_tol": 0.001,
+    "max_iter": 2000,
+    "nonnegative": true,
+    "method": "Normal"
+  },
+  "plotting": {
+    "quick_plot": false,
+    "full_plot": false,
+    "diag_plot": false,
+    "deprojec_plot": false,
+    "distance": 140,
+    "force_style": true,
+    "bin_widths": [
+      20000.0,
+      100000.0
+    ],
+    "stretch": "power",
+    "gamma": 1.0,
+    "asinh_a": 0.02,
+    "iter_plot_range": null,
+    "plot_in_logx": false,
+    "norm_residuals": false
+  },
+  "analysis": {
+    "compare_profile": null,
+    "clean_beam": {
+      "bmaj": null,
+      "bmin": null,
+      "beam_pa": null
+    },
+    "bootstrap_ntrials": null
+  }
+}
